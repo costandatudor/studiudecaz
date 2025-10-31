@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studiu-de-caz · GitHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fab fa-github logo-icon"><a href="./index.html"></a></i>
+            </div>
+            <nav class="nav">
+                <div class="nav-item dropdown">
+                    <span>Produse <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Soluții <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Open Source <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item">
+                    <a href="#preturi">Prețuri</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Caută sau sare la...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button class="btn-sign-in">Sign in</button>
+                <button class="btn-sign-up">Sign up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Secondary Navigation -->
+    <div class="secondary-nav">
+        <div class="container">
+            <div class="repo-info">
+                <div class="repo-owner">
+                    <a href="#" class="owner-link">EchipaDezvoltare</a>
+                    <span class="separator">/</span>
+                    <a href="#" class="repo-link">studiu-de-caz</a>
+                    <span class="repo-visibility">Public</span>
+                </div>
+                <div class="repo-stats">
+                    <a href="#" class="stat-link">
+                        <i class="far fa-eye"></i>
+                        <span>Watch</span>
+                        <span class="stat-count">12</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Fork</span>
+                        <span class="stat-count">5</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="far fa-star"></i>
+                        <span>Star</span>
+                        <span class="stat-count">23</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Content Tabs -->
+            <div class="content-tabs">
+                <div class="tabs">
+                    <a href="index.html" class="tab active">
+                        <i class="fas fa-code"></i> Code
+                    </a>
+                    <a href="issues.html" class="tab">
+                        <i class="fas fa-list"></i> Issues
+                        <span class="badge">3</span>
+                    </a>
+                    <a href="pull-requests.html" class="tab">
+                        <i class="fas fa-code-pull-request"></i> Pull requests
+                        <span class="badge">1</span>
+                    </a>
+                    <a href="projects.html" class="tab">
+                        <i class="fas fa-table"></i> Projects
+                    </a>
+                    <a href="wiki.html" class="tab">
+                        <i class="fas fa-book"></i> Wiki
+                    </a>
+                    <a href="insights.html" class="tab">
+                        <i class="fas fa-chart-bar"></i> Insights
+                    </a>
+                </div>
+            </div>
+
+            <!-- Branch Selector -->
+            <div class="branch-selector">
+                <div class="branch-info">
+                    <div class="branch-dropdown">
+                        <i class="fas fa-code-branch"></i>
+                        <span class="branch-name">main</span>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="branch-stats">
+                        <span class="branches">2 branches</span>
+                        <span class="tags">0 tags</span>
+                    </div>
+                </div>
+                <div class="branch-actions">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-code-branch"></i> Branch
+                    </button>
+                    <button class="btn btn-outline">
+                        <i class="fas fa-download"></i> Code
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- File Browser -->
+            <div class="file-browser">
+                <div class="file-header">
+                    <div class="file-path">
+                        <i class="fas fa-folder-open"></i>
+                        <span>Studiu de caz Git/GitHub</span>
+                    </div>
+                    <div class="file-actions">
+                        <button class="btn btn-sm btn-outline">
+                            <i class="fas fa-download"></i> Code
+                        </button>
+                        <button class="btn btn-sm btn-primary">
+                            <i class="fas fa-plus"></i> Add file
+                        </button>
+                    </div>
+                </div>
+
+                <div class="file-list">
+                    <div class="file-item">
+                        <div class="file-icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <div class="file-name">
+                            <a href="#">documentatie</a>
+                        </div>
+                        <div class="file-message">
+                            Documentație proiect
+                        </div>
+                        <div class="file-time">
+                            acum 2 zile
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <div class="file-icon">
+                            <i class="fas fa-file-code"></i>
+                        </div>
+                        <div class="file-name">
+                            <a href="#">index.html</a>
+                        </div>
+                        <div class="file-message">
+                            Pagina principală
+                        </div>
+                        <div class="file-time">
+                            acum 3 ore
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <div class="file-icon">
+                            <i class="fas fa-file-code"></i>
+                        </div>
+                        <div class="file-name">
+                            <a href="#">styles.css</a>
+                        </div>
+                        <div class="file-message">
+                            Stiluri principale
+                        </div>
+                        <div class="file-time">
+                            acum 3 ore
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <div class="file-icon">
+                            <i class="fas fa-file-code"></i>
+                        </div>
+                        <div class="file-name">
+                            <a href="#">script.js</a>
+                        </div>
+                        <div class="file-message">
+                            JavaScript functionality
+                        </div>
+                        <div class="file-time">
+                            acum 3 ore
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <div class="file-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="file-name">
+                            <a href="#">README.md</a>
+                        </div>
+                        <div class="file-message">
+                            Studiu de caz complet
+                        </div>
+                        <div class="file-time">
+                            acum 5 zile
+                        </div>
+                    </div>
+                </div>
+
+                <!-- README Preview -->
+                <div class="readme-preview">
+                    <div class="readme-header">
+                        <div class="readme-title">
+                            <i class="fas fa-file-alt"></i>
+                            README.md
+                        </div>
+                        <div class="readme-actions">
+                            <button class="btn btn-sm">
+                                <i class="fas fa-pencil-alt"></i> Edit
+                            </button>
+                        </div>
+                    </div>
+                    <div class="markdown-body">
+                        <h1>Studiu de Caz: Importanța Git/GitHub pentru Lucrul în Echipă</h1>
+                        
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle"></i>
+                            Acest studiu de caz demonstrează importanța utilizării Git și GitHub în managementul proiectelor software.
+                        </div>
+
+                        <h2>📋 Descrierea Proiectului</h2>
+                        <p>Proiectul acesta ilustrează cum o echipă de dezvoltatori poate colabora eficient folosind Git și GitHub pentru a gestiona codul sursă, versiunile și cererile de integrare.</p>
+
+                        <h2>👥 Echipă</h2>
+                        <div class="team-members">
+                            <div class="member">
+                                <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Member 1">
+                                <span>Alex Popescu</span>
+                            </div>
+                            <div class="member">
+                                <img src="https://avatars.githubusercontent.com/u/2?v=4" alt="Member 2">
+                                <span>Maria Ionescu</span>
+                            </div>
+                        </div>
+
+                        <h2>🛠️ Tehnologii Utilizate</h2>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Git</span>
+                            <span class="tech-badge">GitHub</span>
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Termeni</a>
+                    <a href="#">Confidențialitate</a>
+                    <a href="#">Securitate</a>
+                    <a href="#">Status</a>
+                    <a href="#">Documentație</a>
+                </div>
+                <div class="footer-copyright">
+                    <i class="fab fa-github"></i>
+                    <span>© 2023 GitHub, Inc.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
