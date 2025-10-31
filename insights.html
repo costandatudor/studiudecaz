@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights · studiu-de-caz · GitHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fab fa-github logo-icon"></i>
+            </div>
+            <nav class="nav">
+                <div class="nav-item dropdown">
+                    <span>Produse <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Soluții <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Open Source <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item">
+                    <a href="#preturi">Prețuri</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Caută sau sare la...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button class="btn-sign-in">Sign in</button>
+                <button class="btn-sign-up">Sign up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Secondary Navigation -->
+    <div class="secondary-nav">
+        <div class="container">
+            <div class="repo-info">
+                <div class="repo-owner">
+                    <a href="index.html" class="owner-link">EchipaDezvoltare</a>
+                    <span class="separator">/</span>
+                    <a href="index.html" class="repo-link">studiu-de-caz</a>
+                    <span class="repo-visibility">Public</span>
+                </div>
+                <div class="repo-stats">
+                    <a href="#" class="stat-link">
+                        <i class="far fa-eye"></i>
+                        <span>Watch</span>
+                        <span class="stat-count">12</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Fork</span>
+                        <span class="stat-count">5</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="far fa-star"></i>
+                        <span>Star</span>
+                        <span class="stat-count">23</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Content Tabs -->
+            <div class="content-tabs">
+                <div class="tabs">
+                    <a href="index.html" class="tab">
+                        <i class="fas fa-code"></i> Code
+                    </a>
+                    <a href="issues.html" class="tab">
+                        <i class="fas fa-list"></i> Issues
+                        <span class="badge">3</span>
+                    </a>
+                    <a href="pull-requests.html" class="tab">
+                        <i class="fas fa-code-pull-request"></i> Pull requests
+                        <span class="badge">1</span>
+                    </a>
+                    <a href="projects.html" class="tab">
+                        <i class="fas fa-table"></i> Projects
+                    </a>
+                    <a href="wiki.html" class="tab">
+                        <i class="fas fa-book"></i> Wiki
+                    </a>
+                    <a href="security.html" class="tab">
+                        <i class="fas fa-shield-alt"></i> Security
+                    </a>
+                    <a href="insights.html" class="tab active">
+                        <i class="fas fa-chart-bar"></i> Insights
+                    </a>
+                </div>
+            </div>
+
+            <!-- Insights Navigation -->
+            <div class="insights-nav">
+                <div class="insights-tabs">
+                    <a href="#overview" class="insight-tab active">Overview</a>
+                    <a href="#reports" class="insight-tab">Reports</a>
+                    <a href="#contributors" class="insight-tab">Contributors</a>
+                    <a href="#traffic" class="insight-tab">Traffic</a>
+                    <a href="#commits" class="insight-tab">Commits</a>
+                    <a href="#code-frequency" class="insight-tab">Code frequency</a>
+                </div>
+            </div>
+
+            <!-- Overview Section -->
+            <div class="insights-section">
+                <h2>Repository Overview</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">15</div>
+                        <div class="metric-label">Total Commits</div>
+                        <div class="metric-trend up">
+                            <i class="fas fa-arrow-up"></i> 25% from last month
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">3</div>
+                        <div class="metric-label">Active Contributors</div>
+                        <div class="metric-trend up">
+                            <i class="fas fa-arrow-up"></i> 1 new contributor
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">87%</div>
+                        <div class="metric-label">Code Coverage</div>
+                        <div class="metric-trend down">
+                            <i class="fas fa-arrow-down"></i> 2% from last week
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">5</div>
+                        <div class="metric-label">Open Issues</div>
+                        <div class="metric-trend neutral">
+                            <i class="fas fa-minus"></i> No change
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contributors Section -->
+            <div class="insights-section">
+                <h2>Contributors</h2>
+                <div class="contributors-list">
+                    <div class="contributor">
+                        <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Contributor" class="contributor-avatar">
+                        <div class="contributor-info">
+                            <div class="contributor-name">Alex Popescu</div>
+                            <div class="contributor-stats">
+                                <span class="stat">8 commits</span>
+                                <span class="stat">3 files changed</span>
+                                <span class="stat">245 ++</span>
+                                <span class="stat">45 --</span>
+                            </div>
+                        </div>
+                        <div class="contributor-chart">
+                            <div class="commit-graph">
+                                <div class="commit-day" style="height: 20%"></div>
+                                <div class="commit-day" style="height: 60%"></div>
+                                <div class="commit-day" style="height: 80%"></div>
+                                <div class="commit-day" style="height: 40%"></div>
+                                <div class="commit-day" style="height: 90%"></div>
+                                <div class="commit-day" style="height: 30%"></div>
+                                <div class="commit-day" style="height: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contributor">
+                        <img src="https://avatars.githubusercontent.com/u/2?v=4" alt="Contributor" class="contributor-avatar">
+                        <div class="contributor-info">
+                            <div class="contributor-name">Maria Ionescu</div>
+                            <div class="contributor-stats">
+                                <span class="stat">5 commits</span>
+                                <span class="stat">2 files changed</span>
+                                <span class="stat">180 ++</span>
+                                <span class="stat">32 --</span>
+                            </div>
+                        </div>
+                        <div class="contributor-chart">
+                            <div class="commit-graph">
+                                <div class="commit-day" style="height: 40%"></div>
+                                <div class="commit-day" style="height: 30%"></div>
+                                <div class="commit-day" style="height: 70%"></div>
+                                <div class="commit-day" style="height: 50%"></div>
+                                <div class="commit-day" style="height: 20%"></div>
+                                <div class="commit-day" style="height: 60%"></div>
+                                <div class="commit-day" style="height: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contributor">
+                        <img src="https://avatars.githubusercontent.com/u/3?v=4" alt="Contributor" class="contributor-avatar">
+                        <div class="contributor-info">
+                            <div class="contributor-name">Andrei Vasile</div>
+                            <div class="contributor-stats">
+                                <span class="stat">2 commits</span>
+                                <span class="stat">1 file changed</span>
+                                <span class="stat">45 ++</span>
+                                <span class="stat">12 --</span>
+                            </div>
+                        </div>
+                        <div class="contributor-chart">
+                            <div class="commit-graph">
+                                <div class="commit-day" style="height: 10%"></div>
+                                <div class="commit-day" style="height: 5%"></div>
+                                <div class="commit-day" style="height: 80%"></div>
+                                <div class="commit-day" style="height: 20%"></div>
+                                <div class="commit-day" style="height: 10%"></div>
+                                <div class="commit-day" style="height: 5%"></div>
+                                <div class="commit-day" style="height: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Traffic Section -->
+            <div class="insights-section">
+                <h2>Traffic</h2>
+                <div class="traffic-stats">
+                    <div class="traffic-card">
+                        <h3>Views</h3>
+                        <div class="traffic-value">124</div>
+                        <div class="traffic-period">last 14 days</div>
+                        <div class="traffic-chart">
+                            <div class="traffic-bar" style="height: 30%"></div>
+                            <div class="traffic-bar" style="height: 45%"></div>
+                            <div class="traffic-bar" style="height: 60%"></div>
+                            <div class="traffic-bar" style="height: 80%"></div>
+                            <div class="traffic-bar" style="height: 65%"></div>
+                            <div class="traffic-bar" style="height: 40%"></div>
+                            <div class="traffic-bar" style="height: 55%"></div>
+                        </div>
+                    </div>
+                    <div class="traffic-card">
+                        <h3>Unique Visitors</h3>
+                        <div class="traffic-value">47</div>
+                        <div class="traffic-period">last 14 days</div>
+                        <div class="traffic-chart">
+                            <div class="traffic-bar" style="height: 20%"></div>
+                            <div class="traffic-bar" style="height: 35%"></div>
+                            <div class="traffic-bar" style="height: 50%"></div>
+                            <div class="traffic-bar" style="height: 70%"></div>
+                            <div class="traffic-bar" style="height: 45%"></div>
+                            <div class="traffic-bar" style="height: 30%"></div>
+                            <div class="traffic-bar" style="height: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="traffic-card">
+                        <h3>Clones</h3>
+                        <div class="traffic-value">18</div>
+                        <div class="traffic-period">last 14 days</div>
+                        <div class="traffic-chart">
+                            <div class="traffic-bar" style="height: 10%"></div>
+                            <div class="traffic-bar" style="height: 25%"></div>
+                            <div class="traffic-bar" style="height: 40%"></div>
+                            <div class="traffic-bar" style="height: 60%"></div>
+                            <div class="traffic-bar" style="height: 35%"></div>
+                            <div class="traffic-bar" style="height: 20%"></div>
+                            <div class="traffic-bar" style="height: 30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Commit Activity -->
+            <div class="insights-section">
+                <h2>Commit Activity</h2>
+                <div class="commit-activity">
+                    <div class="commit-calendar">
+                        <!-- Calendar would be implemented with JavaScript -->
+                        <div class="calendar-placeholder">
+                            <i class="fas fa-calendar-alt"></i>
+                            <p>Commit activity calendar would appear here</p>
+                        </div>
+                    </div>
+                    <div class="commit-summary">
+                        <h3>Last 7 days</h3>
+                        <div class="commit-stats">
+                            <div class="commit-stat">
+                                <span class="stat-value">5</span>
+                                <span class="stat-label">commits</span>
+                            </div>
+                            <div class="commit-stat">
+                                <span class="stat-value">3</span>
+                                <span class="stat-label">days active</span>
+                            </div>
+                            <div class="commit-stat">
+                                <span class="stat-value">2</span>
+                                <span class="stat-label">contributors</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Termeni</a>
+                    <a href="#">Confidențialitate</a>
+                    <a href="#">Securitate</a>
+                    <a href="#">Status</a>
+                    <a href="#">Documentație</a>
+                </div>
+                <div class="footer-copyright">
+                    <i class="fab fa-github"></i>
+                    <span>© 2023 GitHub, Inc.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

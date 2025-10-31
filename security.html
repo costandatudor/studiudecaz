@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security · studiu-de-caz · GitHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fab fa-github logo-icon"></i>
+            </div>
+            <nav class="nav">
+                <div class="nav-item dropdown">
+                    <span>Produse <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Soluții <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Open Source <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item">
+                    <a href="#preturi">Prețuri</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Caută sau sare la...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button class="btn-sign-in">Sign in</button>
+                <button class="btn-sign-up">Sign up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Secondary Navigation -->
+    <div class="secondary-nav">
+        <div class="container">
+            <div class="repo-info">
+                <div class="repo-owner">
+                    <a href="index.html" class="owner-link">EchipaDezvoltare</a>
+                    <span class="separator">/</span>
+                    <a href="index.html" class="repo-link">studiu-de-caz</a>
+                    <span class="repo-visibility">Public</span>
+                </div>
+                <div class="repo-stats">
+                    <a href="#" class="stat-link">
+                        <i class="far fa-eye"></i>
+                        <span>Watch</span>
+                        <span class="stat-count">12</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Fork</span>
+                        <span class="stat-count">5</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="far fa-star"></i>
+                        <span>Star</span>
+                        <span class="stat-count">23</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Content Tabs -->
+            <div class="content-tabs">
+                <div class="tabs">
+                    <a href="index.html" class="tab">
+                        <i class="fas fa-code"></i> Code
+                    </a>
+                    <a href="issues.html" class="tab">
+                        <i class="fas fa-list"></i> Issues
+                        <span class="badge">3</span>
+                    </a>
+                    <a href="pull-requests.html" class="tab">
+                        <i class="fas fa-code-pull-request"></i> Pull requests
+                        <span class="badge">1</span>
+                    </a>
+                    <a href="projects.html" class="tab">
+                        <i class="fas fa-table"></i> Projects
+                    </a>
+                    <a href="wiki.html" class="tab">
+                        <i class="fas fa-book"></i> Wiki
+                    </a>
+                    <a href="security.html" class="tab active">
+                        <i class="fas fa-shield-alt"></i> Security
+                    </a>
+                    <a href="insights.html" class="tab">
+                        <i class="fas fa-chart-bar"></i> Insights
+                    </a>
+                </div>
+            </div>
+
+            <!-- Security Overview -->
+            <div class="security-overview">
+                <div class="security-header">
+                    <h1>Security</h1>
+                    <p>Gestionați securitatea și vulnerabilitățile pentru acest repository</p>
+                </div>
+
+                <div class="security-status">
+                    <div class="status-card secure">
+                        <div class="status-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="status-content">
+                            <h3>Securizat</h3>
+                            <p>Nu s-au detectat vulnerabilități cunoscute</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Features -->
+            <div class="security-features">
+                <h2>Caracteristici de Securitate</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Security Advisories</h3>
+                            <p>Discutați și remediați vulnerabilitățile de securitate în cadrul repository-ului</p>
+                            <button class="btn btn-outline">Configure</button>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-virus"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Dependabot Alerts</h3>
+                            <p>Detectați automat vulnerabilitățile în dependențe și generați remedieri</p>
+                            <button class="btn btn-outline">Enable</button>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Code Scanning</h3>
+                            <p>Scanați codul pentru a găsi vulnerabilități și erori de securitate</p>
+                            <button class="btn btn-outline">Set up</button>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Secret Scanning</h3>
+                            <p>Preveniți expunerea accidentală a secretelor în cod</p>
+                            <button class="btn btn-outline">Configure</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Policy -->
+            <div class="security-policy">
+                <h2>Politică de Securitate</h2>
+                <div class="policy-card">
+                    <div class="policy-header">
+                        <h3>SECURITY.md</h3>
+                        <span class="policy-status">Recomandat</span>
+                    </div>
+                    <div class="policy-content">
+                        <p>Adăugați un fișier SECURITY.md pentru a-i informa pe contribuitori cum să raporteze vulnerabilitățile de securitate.</p>
+                        <div class="policy-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Setup security policy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dependency Graph -->
+            <div class="dependency-graph">
+                <h2>Dependency Graph</h2>
+                <div class="graph-card">
+                    <div class="graph-header">
+                        <h3>Dependențe</h3>
+                        <span class="graph-status">0 dependencies</span>
+                    </div>
+                    <div class="graph-content">
+                        <p>Acest repository nu are dependențe externe detectate.</p>
+                        <div class="dependency-list">
+                            <div class="dependency-item">
+                                <div class="dep-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="dep-info">
+                                    <span class="dep-name">No JavaScript dependencies</span>
+                                </div>
+                            </div>
+                            <div class="dependency-item">
+                                <div class="dep-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="dep-info">
+                                    <span class="dep-name">No CSS dependencies</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security History -->
+            <div class="security-history">
+                <h2>Istoric Securitate</h2>
+                <div class="history-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-title">Repository creat</span>
+                                <span class="timeline-date">Oct 15, 2023</span>
+                            </div>
+                            <p>Repository-ul a fost inițializat cu fișierele de bază pentru studiu de caz.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-title">Analiză securitate inițială</span>
+                                <span class="timeline-date">Oct 16, 2023</span>
+                            </div>
+                            <p>Scanare completă pentru vulnerabilități - nicio problemă detectată.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-title">Pagină Security adăugată</span>
+                                <span class="timeline-date">Oct 20, 2023</span>
+                            </div>
+                            <p>Implementată pagina de securitate cu toate caracteristicile.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Termeni</a>
+                    <a href="#">Confidențialitate</a>
+                    <a href="#">Securitate</a>
+                    <a href="#">Status</a>
+                    <a href="#">Documentație</a>
+                </div>
+                <div class="footer-copyright">
+                    <i class="fab fa-github"></i>
+                    <span>© 2023 GitHub, Inc.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

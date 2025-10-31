@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issues · studiu-de-caz · GitHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header (același ca în index.html) -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fab fa-github logo-icon"></i>
+            </div>
+            <nav class="nav">
+                <div class="nav-item dropdown">
+                    <span>Produse <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Soluții <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Open Source <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item">
+                    <a href="#preturi">Prețuri</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Caută sau sare la...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button class="btn-sign-in">Sign in</button>
+                <button class="btn-sign-up">Sign up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Secondary Navigation -->
+    <div class="secondary-nav">
+        <div class="container">
+            <div class="repo-info">
+                <div class="repo-owner">
+                    <a href="#" class="owner-link">EchipaDezvoltare</a>
+                    <span class="separator">/</span>
+                    <a href="#" class="repo-link">studiu-de-caz</a>
+                    <span class="repo-visibility">Public</span>
+                </div>
+                <div class="repo-stats">
+                    <a href="#" class="stat-link">
+                        <i class="far fa-eye"></i>
+                        <span>Watch</span>
+                        <span class="stat-count">12</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Fork</span>
+                        <span class="stat-count">5</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="far fa-star"></i>
+                        <span>Star</span>
+                        <span class="stat-count">23</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Content Tabs -->
+            <div class="content-tabs">
+                <div class="tabs">
+                    <a href="index.html" class="tab">
+                        <i class="fas fa-code"></i> Code
+                    </a>
+                    <a href="issues.html" class="tab active">
+                        <i class="fas fa-list"></i> Issues
+                        <span class="badge">3</span>
+                    </a>
+                    <a href="pull-requests.html" class="tab">
+                        <i class="fas fa-code-pull-request"></i> Pull requests
+                        <span class="badge">1</span>
+                    </a>
+                    <a href="projects.html" class="tab">
+                        <i class="fas fa-table"></i> Projects
+                    </a>
+                    <a href="wiki.html" class="tab">
+                        <i class="fas fa-book"></i> Wiki
+                    </a>
+                    <a href="insights.html" class="tab">
+                        <i class="fas fa-chart-bar"></i> Insights
+                    </a>
+                </div>
+            </div>
+
+            <!-- Issues Header -->
+            <div class="issues-header">
+                <div class="issues-filters">
+                    <div class="filter-group">
+                        <button class="filter-btn active">
+                            <i class="fas fa-filter"></i> Filters
+                        </button>
+                        <button class="filter-btn">
+                            Labels
+                        </button>
+                        <button class="filter-btn">
+                            Milestones
+                        </button>
+                    </div>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-plus"></i> New Issue
+                    </button>
+                </div>
+            </div>
+
+            <!-- Issues List -->
+            <div class="issues-list">
+                <div class="issue-item open">
+                    <div class="issue-status">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="issue-content">
+                        <div class="issue-title">
+                            <a href="#" class="issue-link">Implementare pagină de contact</a>
+                            <span class="issue-labels">
+                                <span class="label enhancement">enhancement</span>
+                                <span class="label good-first-issue">good first issue</span>
+                            </span>
+                        </div>
+                        <div class="issue-meta">
+                            #1 opened 2 days ago by <a href="#">AlexPopescu</a>
+                        </div>
+                    </div>
+                    <div class="issue-comments">
+                        <i class="far fa-comment"></i>
+                        <span>3</span>
+                    </div>
+                </div>
+
+                <div class="issue-item open">
+                    <div class="issue-status">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="issue-content">
+                        <div class="issue-title">
+                            <a href="#" class="issue-link">Corectare eroare în script.js</a>
+                            <span class="issue-labels">
+                                <span class="label bug">bug</span>
+                            </span>
+                        </div>
+                        <div class="issue-meta">
+                            #2 opened yesterday by <a href="#">MariaIonescu</a>
+                        </div>
+                    </div>
+                    <div class="issue-comments">
+                        <i class="far fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+
+                <div class="issue-item closed">
+                    <div class="issue-status">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="issue-content">
+                        <div class="issue-title">
+                            <a href="#" class="issue-link">Adăugare documentație proiect</a>
+                            <span class="issue-labels">
+                                <span class="label documentation">documentation</span>
+                            </span>
+                        </div>
+                        <div class="issue-meta">
+                            #3 closed 5 days ago by <a href="#">AndreiVasile</a>
+                        </div>
+                    </div>
+                    <div class="issue-comments">
+                        <i class="far fa-comment"></i>
+                        <span>5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (același ca în index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Termeni</a>
+                    <a href="#">Confidențialitate</a>
+                    <a href="#">Securitate</a>
+                    <a href="#">Status</a>
+                    <a href="#">Documentație</a>
+                </div>
+                <div class="footer-copyright">
+                    <i class="fab fa-github"></i>
+                    <span>© 2023 GitHub, Inc.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

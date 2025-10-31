@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki · studiu-de-caz · GitHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fab fa-github logo-icon"></i>
+            </div>
+            <nav class="nav">
+                <div class="nav-item dropdown">
+                    <span>Produse <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Soluții <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Open Source <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="nav-item">
+                    <a href="#preturi">Prețuri</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Caută sau sare la...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button class="btn-sign-in">Sign in</button>
+                <button class="btn-sign-up">Sign up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Secondary Navigation -->
+    <div class="secondary-nav">
+        <div class="container">
+            <div class="repo-info">
+                <div class="repo-owner">
+                    <a href="index.html" class="owner-link">EchipaDezvoltare</a>
+                    <span class="separator">/</span>
+                    <a href="index.html" class="repo-link">studiu-de-caz</a>
+                    <span class="repo-visibility">Public</span>
+                </div>
+                <div class="repo-stats">
+                    <a href="#" class="stat-link">
+                        <i class="far fa-eye"></i>
+                        <span>Watch</span>
+                        <span class="stat-count">12</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Fork</span>
+                        <span class="stat-count">5</span>
+                    </a>
+                    <a href="#" class="stat-link">
+                        <i class="far fa-star"></i>
+                        <span>Star</span>
+                        <span class="stat-count">23</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Content Tabs -->
+            <div class="content-tabs">
+                <div class="tabs">
+                    <a href="index.html" class="tab">
+                        <i class="fas fa-code"></i> Code
+                    </a>
+                    <a href="issues.html" class="tab">
+                        <i class="fas fa-list"></i> Issues
+                        <span class="badge">3</span>
+                    </a>
+                    <a href="pull-requests.html" class="tab">
+                        <i class="fas fa-code-pull-request"></i> Pull requests
+                        <span class="badge">1</span>
+                    </a>
+                    <a href="projects.html" class="tab">
+                        <i class="fas fa-table"></i> Projects
+                    </a>
+                    <a href="wiki.html" class="tab active">
+                        <i class="fas fa-book"></i> Wiki
+                    </a>
+                    <a href="security.html" class="tab">
+                        <i class="fas fa-shield-alt"></i> Security
+                    </a>
+                    <a href="insights.html" class="tab">
+                        <i class="fas fa-chart-bar"></i> Insights
+                    </a>
+                </div>
+            </div>
+
+            <!-- Wiki Container -->
+            <div class="wiki-container">
+                <!-- Sidebar -->
+                <div class="wiki-sidebar">
+                    <div class="sidebar-header">
+                        <h3>Wiki Pages</h3>
+                        <button class="btn btn-sm btn-primary">
+                            <i class="fas fa-plus"></i> New page
+                        </button>
+                    </div>
+                    <div class="wiki-pages">
+                        <div class="wiki-page active">
+                            <a href="#home">
+                                <i class="fas fa-home"></i>
+                                <span>Home</span>
+                            </a>
+                        </div>
+                        <div class="wiki-page">
+                            <a href="#documentatie">
+                                <i class="fas fa-book"></i>
+                                <span>Documentație Proiect</span>
+                            </a>
+                        </div>
+                        <div class="wiki-page">
+                            <a href="#git-workflow">
+                                <i class="fas fa-code-branch"></i>
+                                <span>Git Workflow</span>
+                            </a>
+                        </div>
+                        <div class="wiki-page">
+                            <a href="#instalare">
+                                <i class="fas fa-download"></i>
+                                <span>Ghid de Instalare</span>
+                            </a>
+                        </div>
+                        <div class="wiki-page">
+                            <a href="#contributie">
+                                <i class="fas fa-hands-helping"></i>
+                                <span>Ghid de Contribuție</span>
+                            </a>
+                        </div>
+                        <div class="wiki-page">
+                            <a href="#api">
+                                <i class="fas fa-cogs"></i>
+                                <span>Documentație API</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sidebar-footer">
+                        <div class="recent-activity">
+                            <h4>Recent Activity</h4>
+                            <div class="activity-item">
+                                <span class="page-name">Home</span>
+                                <span class="activity-time">Updated 2 days ago</span>
+                            </div>
+                            <div class="activity-item">
+                                <span class="page-name">Git Workflow</span>
+                                <span class="activity-time">Updated 1 week ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wiki Content -->
+                <div class="wiki-content">
+                    <div class="wiki-header">
+                        <div class="wiki-title">
+                            <h1>Studiu de Caz Git/GitHub</h1>
+                        </div>
+                        <div class="wiki-actions">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-history"></i> Page history
+                            </button>
+                            <button class="btn btn-primary">
+                                <i class="fas fa-pencil-alt"></i> Edit
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="markdown-body">
+                        <div class="wiki-toc">
+                            <h3>Cuprins</h3>
+                            <ul>
+                                <li><a href="#introducere">Introducere</a></li>
+                                <li><a href="#scop">Scopul Proiectului</a></li>
+                                <li><a href="#tehnologii">Tehnologii Utilizate</a></li>
+                                <li><a href="#structura">Structura Proiectului</a></li>
+                                <li><a href="#contributie">Cum să Contribui</a></li>
+                            </ul>
+                        </div>
+
+                        <h2 id="introducere">📝 Introducere</h2>
+                        <p>Acest studiu de caz demonstrează importanța utilizării Git și GitHub în dezvoltarea colaborativă de software. Proiectul servește ca exemplu practic pentru gestionarea eficientă a codului sursă și a fluxului de lucru în echipă.</p>
+
+                        <h2 id="scop">🎯 Scopul Proiectului</h2>
+                        <p>Scopul principal al acestui studiu de caz este de a ilustra:</p>
+                        <ul>
+                            <li>Managementul versiunilor cu Git</li>
+                            <li>Colaborarea eficientă pe GitHub</li>
+                            <li>Utilizarea branch-urilor și a cererilor de pull</li>
+                            <li>Code review și integrare continuă</li>
+                            <li>Documentarea proiectului</li>
+                        </ul>
+
+                        <h2 id="tehnologii">🛠️ Tehnologii Utilizate</h2>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <div class="tech-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="tech-info">
+                                    <h4>Git</h4>
+                                    <p>Sistem de control al versiunilor</p>
+                                </div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="tech-info">
+                                    <h4>GitHub</h4>
+                                    <p>Platformă de colaborare și hosting</p>
+                                </div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="tech-info">
+                                    <h4>HTML5</h4>
+                                    <p>Structura paginilor web</p>
+                                </div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="tech-info">
+                                    <h4>CSS3</h4>
+                                    <p>Stilizarea interfeței</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 id="structura">📁 Structura Proiectului</h2>
+                        <pre><code>studiu-de-caz/
+├── index.html
+├── styles.css
+├── script.js
+├── issues.html
+├── pull-requests.html
+├── projects.html
+├── wiki.html
+├── security.html
+└── insights.html</code></pre>
+
+                        <h2 id="contributie">🤝 Cum să Contribui</h2>
+                        <p>Pentru a contribui la acest proiect, urmați pașii:</p>
+                        <ol>
+                            <li>Fork la repository</li>
+                            <li>Crează un branch pentru funcționalitatea ta</li>
+                            <li>Commit la modificări</li>
+                            <li>Push la branch</li>
+                            <li>Deschide o Cerere de Pull</li>
+                        </ol>
+
+                        <div class="wiki-footer">
+                            <div class="last-updated">
+                                <strong>Ultima actualizare:</strong> 2 days ago
+                            </div>
+                            <div class="contributors">
+                                <strong>Contribuitori:</strong>
+                                <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Contributor">
+                                <img src="https://avatars.githubusercontent.com/u/2?v=4" alt="Contributor">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Termeni</a>
+                    <a href="#">Confidențialitate</a>
+                    <a href="#">Securitate</a>
+                    <a href="#">Status</a>
+                    <a href="#">Documentație</a>
+                </div>
+                <div class="footer-copyright">
+                    <i class="fab fa-github"></i>
+                    <span>© 2023 GitHub, Inc.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
